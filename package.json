@@ -1,0 +1,27 @@
+{
+  "name": "erc721",
+  "version": "1.0.0",
+  "description": "truffle을 이용한 NFT(erc-721)개발 및 배포 해보기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaejieun/erc721.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaejieun/erc721/issues"
+  },
+  "homepage": "https://github.com/chaejieun/erc721#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "openzeppelin-solidity": "4.5.0"
+  }
+}

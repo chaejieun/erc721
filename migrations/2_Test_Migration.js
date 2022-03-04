@@ -1,0 +1,9 @@
+//const Migrations = artifacts.require("Migrations");
+//const MyNFTs = artifacts.require("MyNFTs.sol"); // MyNFTs.sol 파일 추가
+const TestToken = artifacts.require("./Test.sol"); // MyNFTs.sol 파일 추가
+
+module.exports = function (deployer) {
+  //deployer.deploy(Migrations);
+  //deployer.deploy(MyNFTs);
+  deployer.deploy(TestToken);
+};
